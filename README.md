@@ -21,6 +21,8 @@
 
 - Докеризация бэкенда (хотя бд поднимается через docker-compose, но это не тот идеал, к которому нужно стремиться)
 
+Плюс некоторые важные замечания отмечены в [Issues](https://github.com/Chupriarti/wanted-fullstack-test/issues) 
+
 ## Что необходимо для запуска проекта?
 
 Устанавливаем зависимости:
@@ -46,7 +48,7 @@ docker-compose up -d
 npm run start
 ```
 
-Приложение будет запущено и апи можно пощупать в swagger - `http://localhost:3000/api`
+Приложение будет запущено и апи можно пощупать в swagger - [http://localhost:3000/api](http://localhost:3000/api) 
 
 e2e тесты можно запустить командой 
 
@@ -54,7 +56,10 @@ e2e тесты можно запустить командой
 npm run test:e2e
 ```
 
-Скриншоты
+##Скриншоты
+Запуск приложения
 ![running](docs_images/running.png)
+Swagger
 ![swagger](docs_images/swagger.png)
+Тесты (первый запуск)
 ![tests](docs_images/tests.png)

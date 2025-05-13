@@ -25,7 +25,7 @@
 
 Устанавливаем зависимости:
 ```bash
-$ npm install
+npm install
 ```
 
 Для работы с бд необходимо установить `docker`
@@ -33,7 +33,7 @@ $ npm install
 Для подготовки Базы данных `PostgreSQL` нужно выполнить команду:
 
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 Образ будет загружен и запущен согласно указанным в файле `docker-compose.yml` настройкам.
@@ -43,7 +43,7 @@ $ docker-compose up -d
 Для запуска можно использовать, например
 
 ```bash
-$ npm run start
+npm run start
 ```
 
 Приложение будет запущено и апи можно пощупать в swagger - `http://localhost:3000/api`
@@ -51,7 +51,7 @@ $ npm run start
 e2e тесты можно запустить командой 
 
 ```bash
-$ npm run test:e2e
+npm run test:e2e
 ```
 
 Скриншоты
